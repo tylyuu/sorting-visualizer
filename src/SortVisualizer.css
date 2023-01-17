@@ -1,0 +1,105 @@
+.array-container {
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px gray;
+    font-family: gill Sans, sans-serif;
+}
+
+.array-bar{
+    width: 1%;
+    justify-content: center;
+    display: flex;
+    margin: 0 1px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.header-container{
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: gill Sans, sans-serif;
+    width: 1000px;
+    background-color: lightblue;
+}
+
+.button-container{
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px gray;
+}
+
+.button-container button{
+    padding: 8px;
+    text-align: center;
+    font-size: large;
+    margin-top: 20px;
+    border-radius: 5.5em;
+    margin-top: 20px;
+    background-color: lightblue;
+    font-family: gill Sans, sans-serif;
+}
+
+.button-container button:hover {background-color: turquoise}
+
+.slider-container{
+    width: 600px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: gill Sans, sans-serif;
+}
+.slider-label{
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+
+.customSlider {
+    width: 200px;
+    margin: auto;
+    padding: 30px;
+  }
+  
+  .customSlider-track {
+    top: 35px;
+    height: 8px;
+    background: var(--track-color)
+  }
+  
+  .customSlider-track.customSlider-track-0 {
+    background: var(--main-color);
+  }
+
+  .customSlider-thumb {
+    cursor: pointer;
+    background: var(--main-color);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    outline: none;
+  }
+  
+  .customSlider-thumb:hover {
+    box-shadow: 0 0 0 8px var(--main-color-hover);
+  }
